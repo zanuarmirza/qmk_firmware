@@ -14,10 +14,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #pragma once
+#define SPLIT_WPM_ENABLE
+#define SPLIT_OLED_ENABLE
 
 #define MOUSEKEY_INTERVAL 15
 #define MOUSEKEY_DELAY 0
-#define MOUSEKEY_TIME_TO_MAX 70
+#define MOUSEKEY_TIME_TO_MAX 40
 #define MOUSEKEY_MAX_SPEED 5
 #define MOUSEKEY_WHEEL_DELAY 0
 #define TAPPING_TERM_PER_KEY
